@@ -27,7 +27,7 @@ A GitHub App that analyzes repositories and creates issues with AI-powered sugge
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/repochecker.git
+git clone https://github.com/Githubguy132010/repochecker.git
 cd repochecker
 ```
 
