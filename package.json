@@ -1,0 +1,35 @@
+{
+  "name": "repochecker",
+  "version": "1.0.0",
+  "description": "GitHub App that analyzes repositories and creates issues with AI-powered suggestions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --exec 'node server.js'",
+    "test": "jest"
+  },
+  "keywords": [
+    "github-app",
+    "probot",
+    "code-analysis",
+    "ai",
+    "repository-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7",
+    "openai": "^4.91.1",
+    "probot": "^13.4.4"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.0.1",
+    "smee-client": "^1.2.3"
+  },
+  "engines": {
+    "node": ">= 14"
+  }
+}
