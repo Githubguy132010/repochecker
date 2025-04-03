@@ -19,17 +19,18 @@
   "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
-    "@octokit/rest": "^21.1.1",
+    "@octokit/rest": "^19.0.13",
     "dotenv": "^16.4.7",
     "openai": "^4.91.1",
-    "probot": "^13.4.4"
+    "probot": "^12.3.1"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "nodemon": "^3.0.1",
-    "smee-client": "^1.2.3"
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "smee-client": "^1.2.5"
   },
   "engines": {
     "node": ">= 14"
-  }
+  },
+  "type": "commonjs"
 }
